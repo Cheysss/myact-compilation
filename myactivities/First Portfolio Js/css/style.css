@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+}
+
+.sectionOne{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+.pfp {
+width: 450PX;
+border-radius: 50%;
+border: 5px solid blue;
+border-style: outset;
+object-fit: cover;
+}
+
+.info {
+    width: 400px;
+}
+
+.info :is(h1,p) {
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    font-size: 3rem;
+    color: blue;
+}
+
+.info p {
+    font-size: 2opx;
+}
+
+.info button{
+    padding: 7px;
+    border-radius: 3px;
+    background-color: blue;  
+    color: white;
+}
+
+.sectionTwo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionTwo h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.container p {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container button {
+    padding: 7px;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 20px;
+    border: 2px solid blue;
+    width: 100%;
+    height: 400px;
+}
+
+.p1{
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+    transition: all .3s ease;
+    opacity: 50%;
+}
+
+.p1:hover{
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+button {
+    transition: all .8s ease ;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: red;
+    background-color: white;
+}

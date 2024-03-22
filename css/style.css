@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;     
+    gap: 15px;
+}
+
+ul li:nth-child(2){
+    margin-left: auto;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(72, 223, 72);
+
+}
+
+
+/* body */
+
+
+body {
+    height: 94vh;
+    background: linear-gradient(60deg, rgb(17, 51, 17), rgb(39, 39, 39));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 100px;
+    margin-top: 230px;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 10px 14px 20px black;
+    position: relative;
+}
+
+
+.container h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+    background: linear-gradient(green,rgb(189, 255, 195));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.container h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.container h2 span{
+    -webkit-text-stroke: 2px rgb(142, 255, 142);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: thin;
+}
+
+.container P {
+    width: 70%;
+    text-align: center;
+}
+

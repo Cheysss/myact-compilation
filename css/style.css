@@ -12,6 +12,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', 'Sans-serif';
 }
 
 body {
@@ -68,11 +69,6 @@ nav {
     align-items: center;
     margin-left: 10px;
     margin-right: 20px;
-
-nav {
-    background-color: rgba(0, 0, 0, 0.425);
-    padding: 20px;
-}
 
 ul {
     display: flex;
@@ -224,7 +220,6 @@ li a:hover{
 }
 
 
-
 .info h1{
     font-size: 4rem;
     animation: font-animation 1s ease-in-out infinite;
@@ -304,6 +299,7 @@ li a:hover{
         font-size: 2rem;
     }
 }
+    
 
 @media screen and (max-width: 480px) {
 
@@ -325,3 +321,4 @@ li a:hover{
     .info h3 {
         font-size: 1rem;
     }
+}

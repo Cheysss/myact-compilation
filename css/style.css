@@ -1,4 +1,3 @@
-
 :root {
     --main-color:rgb(0, 226, 226);
     --sec-color:rgb(48, 48, 48);
@@ -12,8 +11,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', 'Sans-serif';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
 
 body {
     background: linear-gradient(45deg, var(--main-color), var(--font-color), var(--thrd-color));
@@ -69,6 +70,7 @@ nav {
     align-items: center;
     margin-left: 10px;
     margin-right: 20px;
+}
 
 ul {
     display: flex;
@@ -220,10 +222,13 @@ li a:hover{
 }
 
 
+
 .info h1{
     font-size: 4rem;
     animation: font-animation 1s ease-in-out infinite;
 }
+
+
 
 /* information */
 
@@ -299,7 +304,6 @@ li a:hover{
         font-size: 2rem;
     }
 }
-    
 
 @media screen and (max-width: 480px) {
 
@@ -321,4 +325,5 @@ li a:hover{
     .info h3 {
         font-size: 1rem;
     }
+
 }

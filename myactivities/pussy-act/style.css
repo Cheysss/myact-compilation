@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 :root {
     --main-bg-color:rgb(0, 226, 226);
     --sec-bg-color:rgb(48, 48, 48);
@@ -15,8 +14,6 @@ body {
     background-color: var(--sec-bg-color);
 }
 
-=======
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
 .container {
     display: flex;
     width: 80%;
@@ -25,29 +22,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
-<<<<<<< HEAD
     background: linear-gradient(var(--3rd-bg-color), var(--main-bg-color));
-=======
     background: linear-gradient(pink, purple);
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
     margin-top: 10vh;
     border-radius: 15px;
 }
 
 .left {
-<<<<<<< HEAD
     width: 100%;
 }
 
 .right {
     width: 100%;
-=======
     width: 50%;
 }
 
 .right {
     width: 50%;
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
     margin-left: 10px;
 }
 
@@ -68,43 +59,33 @@ p {
 
 button {
     padding: 10px;
-<<<<<<< HEAD
     background-color: var(--3rd-bg-color);
-=======
     background-color: pink;
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
     border-radius: 5px;
     margin-top: 10px;
     transition: all .5s;
     margin-left: 4px;
-<<<<<<< HEAD
     color: white;
 }
 
  button:hover {
     color: var(--main-bg-color);
-=======
 }
 
  button:hover {
     color: pink;
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
     background-color: black;
  }
 
  h1 {
     font-family: sans-serif;
     font-size: 8vh;
-<<<<<<< HEAD
     background:linear-gradient( black,var(--3rd-bg-color));
-=======
     background:linear-gradient( black,purple);
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-<<<<<<< HEAD
 
 @media screen and (max-width:938px) {
    .container{
@@ -116,5 +97,3 @@ button {
     width: 100%;
    }
 }
-=======
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 :root {
     --main-color:rgb(0, 226, 226);
     --sec-color:rgb(48, 48, 48);
@@ -75,7 +75,7 @@ nav {
     align-items: center;
     margin-left: 10px;
     margin-right: 20px;
-=======
+
 *{
     padding: 0;
     margin: 0;
@@ -87,12 +87,10 @@ nav {
 nav {
     background-color: rgba(0, 0, 0, 0.425);
     padding: 20px;
->>>>>>> 3e79fc92ad6b9f61f1928eb26cf592e0aba7f54b
 }
 
 ul {
     display: flex;
-<<<<<<< HEAD
     gap: 10px;
     list-style: none;
 }
@@ -357,7 +355,6 @@ li a:hover{
     }
 
 }
-=======
     list-style: none;     
     gap: 15px;
 }

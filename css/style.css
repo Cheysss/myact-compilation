@@ -47,6 +47,7 @@ header {
     top: 0;
     right: 0;
     padding: 1rem;
+    z-index: 100;
 }
 
 nav h3 {
@@ -277,6 +278,29 @@ li a:hover{
 @media screen and (max-width: 1153px) {
     .content {
         flex-direction: column;
+    }
+    
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .pfp h3 {
+        top: 6rem;
+        left: 3rem;
+        font-size: 1rem;
+    }
+
+    .info h3 {
+        font-size: 1.4rem;
+    }
+
+    .info h3 span {
+        font-size: 1.6rem;
+    }
+
+    .info h1 {
+        font-size: 2.2rem;
     }
 }
 
